@@ -1,5 +1,5 @@
 #!/bin/bash
-find ../granularity/ -name "*.o"  -print0 | xargs -r -0 /bin/rm
-find ../granularity/ -name "*.hi" -print0 | xargs -r -0 /bin/rm
-find ../granularity/ -name "*~"   -print0 | xargs -r -0 /bin/rm
-/bin/rm -f ../granularity/test/Main
+find ../empty/ -name "*.o"  -print0 | xargs -r -0 /bin/rm
+find ../empty/ -name "*.hi" -print0 | xargs -r -0 /bin/rm
+find ../empty/ -name "*~"   -print0 | xargs -r -0 /bin/rm
+/bin/rm -f ../empty/test/Main
